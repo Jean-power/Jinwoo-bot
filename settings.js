@@ -17,7 +17,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'jinwoo:~Fm8jEb7Z#Z-XMgm7YlWD6Hzfua11rlzmUJDTfjA018SNvr4oQDtI' 
 //Enter your Jinwoo session id here; must start with jinwoo:~
 
 //--------------------[ BOT NAME ]----------------------//
@@ -26,25 +26,25 @@ global.botname = process.env.BOT_NAME || 'ᴊɪɴᴡᴏᴏ-ʙᴏᴛ'
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '263780166288' 
+global.ownernumber = process.env.OWNER_NUMBER || '50932177717' 
 
 //--------------------[ SUDO ]--------------------------//
 
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['263714757857', '263780934873'];
+global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['50932177717', '50932177717'];
 // Type additional allowed users here
 //NB: They'll be able to use every functions of the bot without restrictions.
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'ᴍᴀʟᴠɪɴ ᴋɪɴɢ' 
+global.ownername = process.env.OWNER_NAME || 'Mr Power' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "jinwoo" 
+global.packname = process.env.STICKER_PACK_NAME || "power" 
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "sung" 
+global.author = process.env.STICKER_AUTHOR_NAME || "king" 
 
 //-------------------[ BOT'S PREFIX ]--------------------//
 
@@ -60,7 +60,7 @@ global.mode = process.env.MODE || 'public';
 
 //----------[ STATUS REACTION EMOJI ]--------------//
 
-global.statusemoji = process.env.STATUS_EMOJI || '🧡'
+global.statusemoji = process.env.STATUS_EMOJI || '💀'
 
 //---------------[ AUTO VIEW STATUS ]---------------//
 
@@ -69,12 +69,12 @@ global.autoviewstatus = process.env.AUTO_STATUS_VIEW || 'true'
 
 //--------------[ AUTO REACT STATUS ]--------------//
 
-global.autoreactstatus = process.env.AUTO_STATUS_REACT || 'false'
+global.autoreactstatus = process.env.AUTO_STATUS_REACT || 'true'
 // set true to enable and false to disable auto status react
 
 //---------------[ ALWAYS ONLINE ]------------------//
 
-global.alwaysonline = process.env.ALWAYS_ONLINE || 'true'
+global.alwaysonline = process.env.ALWAYS_ONLINE || 'false'
 //Set true to make the bot online 24/7 or set false to disable always online
 
 
